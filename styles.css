@@ -1,0 +1,406 @@
+body {
+    background-color: #fffbf7;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #025157;
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+h4 {
+    color: #46484c;
+    font-weight: 500;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #8b8b8bcc;
+}
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
+.header {
+    /* margin: 40px 20px 0;
+    font-size: 0;
+    height: 80px; */
+    background-color: #fffbf7;
+}
+
+.header li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header ul {
+    padding: 0;
+}
+/*
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+} */
+/*
+.header .logo {
+    width: 20%;
+} */
+
+.header .navbar {
+    width: 60%;
+    text-align: center;
+}
+
+.header .actions {
+    /* width: 20%; */
+    text-align: right;
+    font-size: 14px;
+}
+
+.header .actions button {
+    color: #ffffff;
+    background-color: #67b54b;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 14px;
+    margin-left: 10px;
+}
+
+.main {
+    margin-top: 280px;
+    text-align: center;
+}
+
+.main .imagen-propiedades {
+    width: 80%;
+    max-width: 1000px;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.publish {
+    padding: 10px;
+    flex: 1;
+}
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.publish .texto-publish {
+    color: #343434;
+}
+
+.publish .texto-gris-publish {
+
+}
+
+.publish .signup-form input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+    height: 75%;
+    border-radius: 8px;
+}
+
+.publish .signup-form button {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 6px 20px;
+    margin-left: -10px;
+    height: 100%;
+}
+
+.publish .signup-form {
+    height: 55px;
+}
+
+.features {
+    background-color: #025157;
+    height: 820px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    padding: 5% 10%;
+    /* gap: 30px; esta propiedad también se puede usar*/
+
+}
+
+.feature-card {
+    /* esta propiedad no se necesita si usamos gap en el contenedor*/
+    margin: 0 15px 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+
+.feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.feature-content-image {
+    margin: 0;
+}
+
+.feature-content-image img {
+    height: 40px;
+}
+
+.feature-image {
+    position: relative;
+    flex: 1;
+}
+
+.feature-image img {
+    width: 200px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    transition: left 0.5s;
+}
+
+.feature-image img:hover {
+    left: 0;
+}
+
+
+.card-container {
+    background-color: #a1d683;
+    padding: 10% 0;
+}
+
+.comments {
+    padding: 0 15px;
+}
+
+.comments h1 {
+    color: #025157;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Alegreya", serif;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 61px;
+    letter-spacing: -2px;
+}
+
+.comments p {
+    font-size: 18px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.comments .btn-beefy {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    height: 45px;
+    width: 166px;
+    transition: all .2s ease-in-out;
+}
+
+.comments .btn-beefy:hover {
+    background-color: #67b54b;
+    color: #fff;
+}
+
+.comments img {
+    margin: 40px 0;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.card-logo-circle {
+    position: absolute;
+    top: 250px;
+    right: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f9da73;
+}
+
+.card-logo-circle img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 76%;
+    width: 100%;
+    display: block;
+}
+
+.success-stories .card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #025157;
+}
+
+.success-stories .customer-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.success-stories .card-results-wrapper {
+    display: flex;
+}
+
+.success-stories .card-results-wrapper .card-results-icon {
+    flex: 1;
+}
+
+.success-stories .card-results-wrapper .card-results-text {
+    flex: 3;
+}
+
+.customer-cs-btn {
+    background: #025157;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 15px 0;
+}
+
+.card {
+    height: 655px;
+}
+
+@media (max-width: 425px) {
+    .navbar,
+    .actions {
+        display: none;
+    }
+
+    .main {
+        margin-top: 130px;
+    }
+
+    .main h1 {
+        font-size: 30px;
+    }
+
+    .main .imagen-propiedades {
+        width: 100%;
+    }
+
+    .promo {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .explanatory-video > video {
+        width: 100%;
+    }
+
+    .publish {
+        margin-top: 15px;
+    }
+
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .publish .signup-form input {
+        width: 50%;
+    }
+
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+        height: 1320px;
+    }
+
+    .feature-image {
+        display: none;
+    }
+}
+
