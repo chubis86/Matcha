@@ -1,0 +1,12 @@
+@use '_global';
+.blog{
+    background-color:#ffffff;
+    height: 150px;
+    max-width: unset;
+    padding:5% 10%;
+
+    .title{
+        /* @extend %base-title; */
+    }
+}
+
